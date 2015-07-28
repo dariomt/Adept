@@ -358,7 +358,7 @@ namespace adept {
   class Stack {
   public:
     typedef std::list<Gap> GapList;
-    typedef std::list<Gap>::iterator GapListIterator;
+    typedef GapList::iterator GapListIterator;
 
 
     // Only one constructor, which is normally called with no
